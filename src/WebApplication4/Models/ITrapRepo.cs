@@ -7,5 +7,6 @@ namespace WebApplication4.Models
         IEnumerable<Trap> GetAllTraps();
         bool SaveAll();
         void AddTrap(Trap newTrap);
+        void RemoveTrap(Trap id);
     }
 }

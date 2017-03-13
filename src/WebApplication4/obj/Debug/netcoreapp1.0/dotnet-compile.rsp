@@ -1,5 +1,5 @@
---temp-output:C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\obj\Debug\netcoreapp1.0\
---out:C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\bin\Debug\netcoreapp1.0\WebApplication4.dll
+--temp-output:D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\obj\Debug\netcoreapp1.0\
+--out:D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\bin\Debug\netcoreapp1.0\WebApplication4.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -210,20 +210,27 @@
 --reference:C:\Users\mikze\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\mikze\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\mikze\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\obj\Debug\netcoreapp1.0\WebApplication4dotnet-compile.deps.json",WebApplication4.deps.json
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Program.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Startup.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Controllers\HelloWorldController.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Controllers\Api\TrapController.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Controllers\Web\AppController.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Migrations\20160720104039_InitialDatabase.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Migrations\20160720104039_InitialDatabase.Designer.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Migrations\TrapContextModelSnapshot.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\ITrapRepo.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\Trap.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\TrapContext.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\TrapContextSeedData.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\TrapRepo.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Services\CoordService.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Services\CoordServiceResult.cs
-C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\ViewModels\TrapViewModel.cs
+--resource:"D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\obj\Debug\netcoreapp1.0\WebApplication4dotnet-compile.deps.json",WebApplication4.deps.json
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Program.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Startup.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Controllers\HelloWorldController.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Controllers\Api\RemoveController.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Controllers\Api\SMSController.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Controllers\Api\TrapController.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Controllers\Web\AppController.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Migrations\20160720104039_InitialDatabase.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Migrations\20160720104039_InitialDatabase.Designer.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Migrations\20160808175002_InitialMigration.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Migrations\20160808175002_InitialMigration.Designer.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Migrations\TrapContextModelSnapshot.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Models\ITrapRepo.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Models\SmsJson.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Models\Trap.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Models\TrapContext.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Models\TrapContextSeedData.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Models\TrapEditModel.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Models\TrapRepo.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Services\CoordService.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\Services\CoordServiceResult.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\ViewModels\SmsViewModel.cs
+D:\Downloads\RatTrap2-b17d610efd940418700d583416195821985abd46\RatTrap2-b17d610efd940418700d583416195821985abd46\src\WebApplication4\ViewModels\TrapViewModel.cs

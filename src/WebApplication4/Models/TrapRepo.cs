@@ -34,9 +34,18 @@ namespace WebApplication4.Models
             }
         }
 
+        public void RemoveTrap(Trap toRemove)
+        {
+            //znajdz po id i wyslij do remove obiekt!
+            _context.Remove(toRemove);
+            this.SaveAll();
+        }
+
         public bool SaveAll()
         {
             return _context.SaveChanges() > 0;
         }
+
+        
     }
 }
