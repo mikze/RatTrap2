@@ -35,8 +35,6 @@ namespace WebApplication4.Migrations
 
                     b.Property<int>("Rats");
 
-                    b.Property<int>("Trapid");
-
                     b.Property<string>("UserName");
 
                     b.HasKey("Id");

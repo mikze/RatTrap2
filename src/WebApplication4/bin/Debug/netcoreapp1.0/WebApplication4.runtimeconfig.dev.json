@@ -1,7 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/mikze/.nuget/packages"
+      "C:\\Users\\mikze\\.nuget\\packages"
     ]
   }
 }

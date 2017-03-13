@@ -19,7 +19,20 @@ namespace WebApplication4.Models
             //Dodawnianie danych
             if(!_context.Traps.Any())
             {
-                var pulapka = new Trap();
+                var pulapka = new Trap()
+                {
+                    UserName = "mikze",
+                    Battery = 3,
+                    CreateDate = DateTime.UtcNow,
+                    LastMadified = DateTime.Today,
+                    FirstRat = DateTime.Today,
+                    Rats = 2,
+                    Latitude = 2.3,
+                    Longitude = 32.4
+                };
+
+                _context.Traps.Add(pulapka);
+                _context.SaveChanges();
             }
 
         }

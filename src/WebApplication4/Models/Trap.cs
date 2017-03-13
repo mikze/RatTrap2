@@ -8,7 +8,6 @@ namespace WebApplication4.Models
     public class Trap
     {
         public int Id { get; set; }
-        public int TrapId { get; set; }
         public string UserName { get; set; }
         public int Battery { get; set; }
         public int Rats { get; set; }

@@ -13,9 +13,7 @@ namespace WebApplication4.ViewModels
         [Required]
         [StringLength(255, MinimumLength = 4)]
         public string UserName { get; set; }
-        public int TrapId { get; set; }
         public DateTime CreateDate { get; set; } = DateTime.UtcNow;
-        public double longitude { get; set; }
-        public double latitude { get; set; }
+
     }
 }

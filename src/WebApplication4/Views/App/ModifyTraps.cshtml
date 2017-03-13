@@ -3,23 +3,37 @@
     <script src="~/lib/angular/angular.min.js"></script>
     <script src="~/js/app-traps.js"></script>
     <script src="~/js/trapsController.js"></script>
-    <script src="~/js/trapEditorController.js"></script>
-    <script src="~/lib/angular-route/angular-route.min.js"></script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="~/css/site.css" />
 }
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="~/css/site.css" />
     <title></title>
 </head>
 <body>
 
     <div class="row" ng-app="app-traps">
-   
-    <div ng-view></div>
+    <div class="col-md-6" ng-controller="trapsController as vm">
+        <div class="text-danger" ng-show="vm.errorMessage">{{vm.errorMessage}}</div>
+        <table class="table table-responsive table-striped">
+            <tr ng-repeat="trap in vm.traps">
+                <td>{{ trap.userName }}</td>
+                <td>{{ trap.createDate }}</td>
+                <td><a href="#" class="btn btn-sm btn-primary">Edit</a></td>
+            </tr>
+        </table>
 
+        <form novalidate name="newTrapForm" ng-submit="vm.addTrap()">
+            <div class="form-group">
+                <label for="name">Trap name</label>
+                <input class="form-control" type="text" id="userName" name="userName" ng-model="vm.newTrap.userName" required ng-minlength="5"/>
+                <span ng-show="newTrapForm.name.$error.required" class="text-warning">userName is required</span>
+                <span ng-show="newTrapForm.name.$error.minlength" class="text-warning">userName must be at least 5 char</span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="add" class="btn btn-success btn-sm" ng-disabled="newTrapForm.$invalid"/>
+            </div>
+        </form>
+    </div>
     </div>
 </body>
 </html>

@@ -1,5 +1,5 @@
---temp-output:D:\Ichuj\src\WebApplication4\obj\Release\netcoreapp1.0\
---out:D:\Ichuj\src\WebApplication4\bin\Release\netcoreapp1.0\WebApplication4.dll
+--temp-output:C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\obj\Release\netcoreapp1.0\
+--out:C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\bin\Release\netcoreapp1.0\WebApplication4.dll
 --define:RELEASE
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -13,7 +13,6 @@
 --version:1.0.0.0
 --informational-version:1.0.0
 --target-framework:.NETCoreApp,Version=v1.0
---reference:C:\Users\mikze\.nuget\packages\AutoMapper\4.0.4\lib\dotnet\AutoMapper.dll
 --reference:C:\Users\mikze\.nuget\packages\Microsoft.ApplicationInsights\2.1.0\lib\dotnet5.4\Microsoft.ApplicationInsights.dll
 --reference:C:\Users\mikze\.nuget\packages\Microsoft.ApplicationInsights.AspNetCore\1.0.0\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll
 --reference:C:\Users\mikze\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll
@@ -210,27 +209,18 @@
 --reference:C:\Users\mikze\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\mikze\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\mikze\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"D:\Ichuj\src\WebApplication4\obj\Release\netcoreapp1.0\WebApplication4dotnet-compile.deps.json",WebApplication4.deps.json
-D:\Ichuj\src\WebApplication4\Program.cs
-D:\Ichuj\src\WebApplication4\Startup.cs
-D:\Ichuj\src\WebApplication4\Controllers\HelloWorldController.cs
-D:\Ichuj\src\WebApplication4\Controllers\Api\RemoveController.cs
-D:\Ichuj\src\WebApplication4\Controllers\Api\SMSController.cs
-D:\Ichuj\src\WebApplication4\Controllers\Api\TrapController.cs
-D:\Ichuj\src\WebApplication4\Controllers\Web\AppController.cs
-D:\Ichuj\src\WebApplication4\Migrations\20160720104039_InitialDatabase.cs
-D:\Ichuj\src\WebApplication4\Migrations\20160720104039_InitialDatabase.Designer.cs
-D:\Ichuj\src\WebApplication4\Migrations\20160808175002_InitialMigration.cs
-D:\Ichuj\src\WebApplication4\Migrations\20160808175002_InitialMigration.Designer.cs
-D:\Ichuj\src\WebApplication4\Migrations\TrapContextModelSnapshot.cs
-D:\Ichuj\src\WebApplication4\Models\ITrapRepo.cs
-D:\Ichuj\src\WebApplication4\Models\SmsJson.cs
-D:\Ichuj\src\WebApplication4\Models\Trap.cs
-D:\Ichuj\src\WebApplication4\Models\TrapContext.cs
-D:\Ichuj\src\WebApplication4\Models\TrapContextSeedData.cs
-D:\Ichuj\src\WebApplication4\Models\TrapEditModel.cs
-D:\Ichuj\src\WebApplication4\Models\TrapRepo.cs
-D:\Ichuj\src\WebApplication4\Services\CoordService.cs
-D:\Ichuj\src\WebApplication4\Services\CoordServiceResult.cs
-D:\Ichuj\src\WebApplication4\ViewModels\SmsViewModel.cs
-D:\Ichuj\src\WebApplication4\ViewModels\TrapViewModel.cs
+--resource:"C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\obj\Release\netcoreapp1.0\WebApplication4dotnet-compile.deps.json",WebApplication4.deps.json
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Program.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Startup.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Controllers\HelloWorldController.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Controllers\Api\TrapController.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Controllers\Web\AppController.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Migrations\20160720104039_InitialDatabase.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Migrations\20160720104039_InitialDatabase.Designer.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Migrations\TrapContextModelSnapshot.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\ITrapRepo.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\Trap.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\TrapContext.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\TrapContextSeedData.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\Models\TrapRepo.cs
+C:\Users\mikze\Documents\Visual Studio 2015\Projects\WebApplication4\src\WebApplication4\ViewModels\TrapViewModel.cs
